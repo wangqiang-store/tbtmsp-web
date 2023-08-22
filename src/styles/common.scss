@@ -1,0 +1,57 @@
+@import url("./reset.scss");
+@import url("./transition.scss");
+
+.el-popconfirm__main {
+  margin-bottom: 10px;
+}
+
+.quietHour {
+  .el-dialog__body {
+    padding: 10px 20px !important;
+  }
+}
+
+.cascader_selectBusway .el-popper__arrow::before {
+  left: 96px;
+}
+
+.el-form-item__content .el-select {
+  width: 100%;
+}
+
+.lil-gui {
+  top: 80px !important;
+  right: 20px !important;
+}
+
+.el-aside .el-menu-item:hover,
+.el-aside .el-submenu__title:hover {
+  background-color: rgba(50, 50, 50, 0.8) !important;
+  color: $asideHonerColor !important;
+}
+
+.el-aside .el-menu-item:hover i::before,
+.el-aside .el-submenu__title:hover i::before {
+  color: $asideHonerColor !important;
+}
+
+.el-button--primary {
+  color: #fff;
+  background-color: $btnColor;
+  border-color: $btnColor;
+  border: none;
+}
+
+.el-button--primary:hover,
+.el-button--primary:focus,
+.el-button--primary:active {
+  color: #fff;
+  background-color: $btnHoverColor;
+  border-color: $btnHoverColor;
+}
+
+.el-button--default:hover {
+  color: #fff;
+  background-color: rgba($btnHoverColor, 0.6);
+  border-color: rgb(157, 166, 188);
+}

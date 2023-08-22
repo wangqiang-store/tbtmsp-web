@@ -1,0 +1,26 @@
+{
+  "APP_VERSION": "v1.4.10.1",
+  "APP_SERVER_VERSION": "v1.4.10.1",
+  "MODEL_LIST": [
+    {
+      "path": "models/fbx/广州万达_-2F.fbx",
+      "name": "B2"
+    },
+    {
+      "path": "models/fbx/广州万达_-1F.fbx",
+      "name": "B1"
+    },
+    {
+      "path": "models/fbx/广州万达_1F.fbx",
+      "name": "F1"
+    },
+    {
+      "path": "models/fbx/广州万达_2F.fbx",
+      "name": "F2"
+    },
+    {
+      "path": "models/fbx/广州万达_3F.fbx",
+      "name": "F3"
+    }
+  ]
+}
